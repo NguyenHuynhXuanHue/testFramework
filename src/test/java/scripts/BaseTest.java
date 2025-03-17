@@ -27,7 +27,7 @@ public class BaseTest {
         driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
         driver.manage().window().maximize();
         driver.get("https://demo1.cybersoft.edu.vn/");*/
-        logger.info("Setting up WebDriver...");
+        logger.info("Setting up WebDriver!!!");
         String browser = "chrome";
         switch (browser){
             case "chrome":
